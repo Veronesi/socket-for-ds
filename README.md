@@ -1,5 +1,11 @@
 # sokcet-for-ds
 
+### Run Project
+- Install Node
+- Clonse repo `git clone https://github.com/Veronesi/socket-for-ds.git`
+- Install dependences `cd socket-for-ds && npm i --yes`
+- Run Project `npm run start`
+
 ### Ejemplo del protocolo de dos mensajes
 ```
 Servidor 1:
