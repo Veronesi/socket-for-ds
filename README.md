@@ -6,6 +6,23 @@
 - Install dependences `cd socket-for-ds && npm i --yes`
 - Run Project `npm run start`
 
+### Use library
+```ts
+import { SocketManager } from './libs/SocketDistributedSystem'; 
+
+// Create SocketManager
+const socketManager = new SocketManager(port: string);
+
+// create server
+socketManager.serve(port: string, response: (uuid: string, message: string) => {});
+
+// connect to another server
+socketManager.connect(port: string, response: (uuid: string, message: string) => {});
+
+// send message to the server
+socketManager.send(message: string);
+```
+
 ### Ejemplo del protocolo de dos mensajes
 ```
 Servidor 1:
