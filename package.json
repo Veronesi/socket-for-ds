@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/Veronesi/socket-for-ds#readme",
   "dependencies": {
+    "@inquirer/prompts": "^3.0.2",
     "express": "^4.18.2",
     "socket.io": "^4.7.2",
-    "socket.io-client": "^4.7.2"
+    "socket.io-client": "^4.7.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
