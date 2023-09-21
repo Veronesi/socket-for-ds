@@ -34,7 +34,7 @@ const Terminal = {
 
     while (true) {
       const message = await input({ message: '' });
-      Terminal.manager.send(message);
+      if(message) Terminal.manager.send(message);
     }
   }
 }

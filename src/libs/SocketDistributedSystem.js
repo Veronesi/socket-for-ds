@@ -29,9 +29,6 @@ export class SocketManager {
     console.log(`Request: ${message} (${uuid})`)
     this.client.send(JSON.stringify({ message, uuid }));
   }
-  async request(id, message){
-    this.server
-  }
 }
 
 
